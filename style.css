@@ -12,9 +12,11 @@ a {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style-type: circle;
   text-align: left;
+  padding-right: 25%;
+  padding-left: 25%;
 }
 
 .main {
