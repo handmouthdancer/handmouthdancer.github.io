@@ -2,6 +2,7 @@
 body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
+  position: relative;
   text-align: center;
   color: #141414;
   background-color: #f7f5f5;
