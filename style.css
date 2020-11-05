@@ -2,28 +2,54 @@
 body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  position: relative;
   text-align: center;
   color: #141414;
   background-color: #f7f5f5;
 }
 
+p {
+  font-size: 1.2em;
+}
+
+.header {
+  width: 50%;
+  min-width: 200px;
+}
+
 a {
   text-decoration: none;
+  color: #DA185D;
+}
+
+a:link {
+  color: #DA185D;
+}
+
+a:visited {
+  color: #DA185D;
+}
+
+a:hover {
+  color: #1987A3;
+}
+
+a:active {
+  color: #1987A3;
 }
 
 .list {
   list-style-type: circle;
   text-align: left;
-  padding-right: 25%;
-  padding-left: 25%;
+  font-size: 1.1em;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 .main {
   padding-right: 25%;
   padding-left: 25%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #both {
